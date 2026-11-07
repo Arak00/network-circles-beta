@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <title>Who Do I Know</title>
 <meta name="description" content="Type the companies or roles you're aiming for and see who you already know there, from your own LinkedIn data. Your files never leave your browser.">
 <style>
@@ -65,9 +66,13 @@ details { background: var(--surface); border: 1px solid var(--line); border-radi
 summary { cursor: pointer; font-weight: 600; }
 details p { color: var(--ink-2); margin: 8px 0 0; font-size: 15px; }
 footer { border-top: 1px solid var(--line); margin-top: 56px; padding: 20px 0 40px; font-size: 14px; color: var(--muted); }
+/* beta-only strip (branch beta-site) */
+.beta { margin: 0; padding: 6px 16px; background: var(--banner); color: var(--ink-2); font-size: 13px; line-height: 1.4; text-align: center; }
+.beta a { color: var(--link); text-underline-offset: 2px; }
 </style>
 </head>
 <body>
+<aside class="beta" aria-label="Test version">Test version. <a href="https://arak00.github.io/network-circles/who/">The stable site is here.</a></aside>
 <div class="wrap">
   <header class="top">
     <span class="name">Network Circles</span>

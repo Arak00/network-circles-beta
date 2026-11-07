@@ -9,7 +9,7 @@ You run the tool on your own computer with your own LinkedIn export. Nothing is 
 ## Run it
 
 1. Request your data from LinkedIn (Settings, Data privacy, Get a copy of your data). Pick the larger archive, which includes Connections and Positions. LinkedIn emails a zip.
-2. Open https://arak00.github.io/network-circles/web/?own=1 and drop the zip on the page as it is. It's read in your browser tab and never uploaded.
+2. Open https://arak00.github.io/network-circles-beta/web/?own=1 and drop the zip on the page as it is. It's read in your browser tab and never uploaded.
 
    Or from a terminal: `python src/netmap.py <your_export_folder> results/private/graph.json`, then load that file in the viewer.
 3. Look at Ways in, the first screen: the companies where you know someone, with who to ask at each. Point at a few rows to see those people on the map.

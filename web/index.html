@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <title>Network Circles</title>
 <link rel="icon" href="data:,">
 <style>
@@ -213,9 +214,13 @@ dialog .row { display: flex; justify-content: flex-end; margin-top: 16px; }
   #now { grid-column: 1 / -1; text-align: left; }
   #spark, .sparkcap { grid-column: 1 / -1; }
 }
+/* beta-only strip (branch beta-site) */
+.beta { margin: 0; padding: 6px 16px; background: var(--banner); color: var(--ink-2); font-size: 13px; line-height: 1.4; text-align: center; }
+.beta a { color: var(--link); text-underline-offset: 2px; }
 </style>
 </head>
 <body>
+<aside class="beta" aria-label="Test version">Test version. <a href="https://arak00.github.io/network-circles/web/">The stable site is here.</a></aside>
 <div class="app">
   <header>
     <h1>Network Circles</h1>
